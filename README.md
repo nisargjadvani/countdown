@@ -1,6 +1,7 @@
 # countdown
-<h2><a href="nisargjadvani.github.io/countdown/">Countdown</a> to a given Date.</h2>
+https://nisargjadvani.github.io/countdown/
 </br>
+Countdown to a given Date.
 </br>
 </br>
 </br>
