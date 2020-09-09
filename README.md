@@ -1,4 +1,4 @@
-# nisargcountdown.github.io
+# countdown
 Countdown to a given Date.
 </br>
 </br>
