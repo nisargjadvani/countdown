@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./back2.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10vh;
+    font-family: sans-serif;
+    margin:0;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top:5rem;
+}
+.count-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 3rem;
+}
+.count{
+    text-align: center;
+}
+.count span{
+    font-size:2rem;
+    color:#ffffff;
+}
+
+label {
+    display: block;
+    color:wheat;
+    font: 1.2rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.calender{
+    background-color:transparent;
+}

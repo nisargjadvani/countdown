@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <label for="start">Enter Date:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="" onchange="javascript: change();" class="calender">
+
+    <h1>Days Untill<span id="newDate">!</span> </h1>
+    <div class="count-container">
+        <div class="count days">
+            <p class="big-text" id="days">0</p>
+            <span>Days</span>
+        </div>
+        <div class="count hours">
+            <p class="big-text" id="hours">0</p>
+            <span>Hours</span>
+        </div>
+        <div class="count mins">
+            <p class="big-text" id="mins">0</p>
+            <span>Minutes</span>
+        </div>
+        <div class="count sec">
+            <p class="big-text" id="sec">0</p>
+            <span>Seconds</span>
+        </div>
+    </div>
+</body>
+</html>
